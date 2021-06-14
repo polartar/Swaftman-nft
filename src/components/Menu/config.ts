@@ -12,21 +12,13 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'TradeIcon',
     items: [
       {
-        label: t('Exchange'),
-        href: '#',
+        label: t('Swap Aggregator'),
+        href: 'https://swap.dexkit.com/#/matic/swap',
       },
       {
-        label: t('Liquidity'),
-        href: '#',
-      },
-      {
-        label: t('LP Migration'),
-        href: '#',
-      },
-      {
-        label: t('V1 Liquidity (Old)'),
-        href: '#',
-      },
+        label: t('V1'),
+        href: 'https://swapmatic.io/swap',
+      }
     ],
   },
   {
